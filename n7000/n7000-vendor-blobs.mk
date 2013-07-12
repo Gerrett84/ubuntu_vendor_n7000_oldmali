@@ -12,17 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Prebuilt libraries that are needed to build open-source libraries
-PRODUCT_COPY_FILES := \
-    vendor/samsung/n7000/proprietary/system/lib/libril.so:obj/lib/libril.so \
-    vendor/samsung/n7000/proprietary/system/lib/libsecril-client.so:obj/lib/libsecril-client.so
-
 PRODUCT_COPY_FILES += \
-    vendor/samsung/n7000/proprietary/system/lib/hw/camera.exynos4.so:system/lib/hw/vendor-camera.exynos4.so
-
-PRODUCT_COPY_FILES += \
-    vendor/samsung/n7000/proprietary/system/bin/rild:system/bin/rild \
-    vendor/samsung/n7000/proprietary/system/lib/libril.so:system/lib/libril.so \
     vendor/samsung/n7000/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/n7000/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/n7000/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
