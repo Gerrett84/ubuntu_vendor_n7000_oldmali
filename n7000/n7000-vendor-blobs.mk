@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/n7000/proprietary/system/lib/libsec-ril.so:system/lib/libsec-ril.so \
     vendor/samsung/n7000/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/n7000/proprietary/system/lib/hw/gps.exynos4.so:system/lib/hw/gps.exynos4.so \
-    vendor/samsung/n7000/proprietary/system/lib/hw/camera.smdk4210.so:system/lib/hw/camera.smdk4210.so
+    vendor/samsung/n7000/proprietary/system/lib/hw/camera.smdk4210.so:system/lib/hw/camera.smdk4210.so \
     vendor/samsung/n7000/proprietary/system/bin/gpsd:system/bin/gpsd \
     vendor/samsung/n7000/proprietary/system/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/n7000/proprietary/system/etc/gps.xml:system/etc/gps.xml \
