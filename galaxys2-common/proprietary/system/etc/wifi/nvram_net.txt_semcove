@@ -14,7 +14,7 @@ macaddr=00:90:4c:c5:12:38
 ag0=252
 ag1=255
 aa2g=1
-ccode=ALL
+ccode=GB
 
 btc_params80=0
 btc_params6=10
@@ -48,7 +48,7 @@ pa1hib1=64782
 pa1hib2=65321
 
 # 2G PA offset B42G_R08_110729
-maxp2ga0=76
+maxp2ga0=80
 sromrev=3
 cckpo=0
 ofdm2gpo=0x55555555
@@ -56,9 +56,9 @@ mcs2gpo0=0x6666
 mcs2gpo1=0x6666
 
 # 5G PA offset B42G_R08_110729
-maxp5ga0=66
-maxp5gla0=66
-maxp5gha0=66
+maxp5ga0=70
+maxp5gla0=70
+maxp5gha0=70
 ofdm5gpo=0x00000000
 ofdm5glpo=0x11111111
 ofdm5ghpo=0x11111111
